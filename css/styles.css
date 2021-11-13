@@ -1,0 +1,84 @@
+/* SITE COLOR PALETTE
+PRIMARY BACKGROUND COLOR: #E5E5E5 
+SECONDARY BACKGROUND COLOR: #F5F4FA
+WHITE BACKGROUND COLOR: #FFFFFF
+DARK BACKGROUND COLOR: #2F303A
+PRIMARY TEXT COLOR: #757575
+TITLE TEXT COLOR: #212121
+ACCENT COLOR: #2196F3
+*/
+:root {
+  --primary-background-color: #e5e5e5;
+  --secondary-background-color: #f5f4fa;
+  --white-background-color: #f5f4fa;
+  --dark-background-color: #2f303a;
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --white-text-color: #ffffff;
+  --accent-color: #2196f3;
+}
+body {
+  background-color: var(--primary-background-color);
+  color: var(--primary-text-color);
+}
+
+.header {
+  background-color: var(--white-background-color);
+}
+
+.logo,
+.logo:visited {
+  text-decoration: none;
+}
+.logo.black {
+  color: var(--title-text-color);
+}
+.logo.white {
+  color: var(--white-text-color);
+}
+.logo.accent {
+  color: var(--accent-color);
+}
+
+.link {
+  color: var(--title-text-color);
+  text-decoration: none;
+}
+
+.link:hover,
+.link:focus {
+  color: var(--accent-color);
+}
+
+.contacts-header {
+  color: var(--primary-text-color);
+  text-decoration: none;
+}
+.contacts-header:hover,
+.contacts-header:focus {
+  color: var(--accent-color);
+}
+
+.contacts-footer {
+  color: var(--white-text-color);
+  text-decoration: none;
+}
+.contacts-footer:hover,
+.contacts-footer:focus {
+  color: var(--accent-color);
+}
+.postal-address {
+  color: var(--white-text-color);
+}
+.hero {
+  background-color: var(--dark-background-color);
+  color: var(--white-text-color);
+}
+.advantages {
+}
+.specialisation {
+  background-color: var(--secondary-background-color);
+}
+.footer {
+  background-color: var(--dark-background-color);
+}
